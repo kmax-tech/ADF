@@ -1,11 +1,12 @@
+#This script calculates the semantics of ADFs,therefore the variables nodes and chooseinterpretations have to be edited by the user
 import itertools, re, functools, time
 
-#enter each node (n) and its acceptance condition (ac) as a list [n,ac] into the list below:
-nodes = [["a","e"],["b","d;(#c,e)"],["c","#e"],["d","#a;#e"],["e","a,b"]]
-#nodes = [["v5","(s1;s2;s3),(p5;t5)"],["s1","s1"],["s2","s2"],["s3","s3"],["t5","#p5"],["p5","(l4;l5),((#l4);(#l5)),#t5"],["l4","l4"],["l5","l5"]]
+#enter each node (n) and its acceptance condition (ac) as a list [n,ac] into the variable nodes
+#syntax: (,) for logical and, (;) for logical or, (#) for negation, also parentheses are allowed
+nodes = [["b","#w,b"],["h","(w;b)"],["r","?"],["s","h,b"],["w","#r,#b"]]
 
-#specify the interpretations, which shall be calculated: a - admissible, c - complete, p - preferred, g - ground, tri - use Kleene's strong tri-valued logic
-chooseinterpretations= ["a","c","p","g","tri"] #specify the desired interpretations
+#specify the interpretations, which shall be calculated: a - admissible, c - complete, p - preferred, g - ground, tri - use Kleene's strong three-valued logic
+chooseinterpretations= ["a","c"]
 
 class ParseAndPrepare():  #class for the nodes and the acceptance conditions
     def __init__(self,inp,chooseinterpretations):
@@ -105,20 +106,26 @@ class EvaluateAndInterprete(ParseAndPrepare): #this class inherits the prepared 
             else:
                 undefinednodes.append(node)
         if undefinednodes == []:  #means that we have no undefined values in the interpretation and need no two-valued completions
+            #print("exting here")
             return self.formEval(twovaluedinterpretation)
-        #print("Gamma two-valued interpretation",twovaluedinterpretation)
+        #print("Gamma two-valued interpretation",twovaluedinterpretation,"undefined",undefinednodes)
         interpretationgenerator = itertools.product(["True", "False"], repeat=len(undefinednodes)) #for the undefined nodes the two-valued completions are generated
         item = next(interpretationgenerator)
         gammabase = self.formEval({**twovaluedinterpretation, **dict(zip(undefinednodes, item))})  #the first two-valued interpretation for the comparison
+        #print("gammabase",gammabase)
         for values in interpretationgenerator:
             intupdatenodes = dict(zip(undefinednodes, values))
+            #print("update",{**twovaluedinterpretation, **intupdatenodes})
             currentint = self.formEval({**twovaluedinterpretation, **intupdatenodes})  #the current calculated two-valued interpretation
+            #print("currentint",currentint)
             if usednodes != []:
                 differenceinterpretations = set(gammabase.items()) - set(
                     currentint.items())  #find interpretations, which are different in the two sets
                 [finalgammaint.update({node: "u"}) for node, value in differenceinterpretations if node in usednodes] #for the nodes in differenceinterpretations the value of the gammaoperatos is "u"
                 [usednodes.remove(node) for node, value in finalgammaint.items() if node in usednodes] #remove the nodes to mark that the gamma interpretation of them has been found
+                #print("usdendoes",usednodes)
             else:  #means that we found every evaluation for the gamma interpreter
+                #print("leaving")
                 break
         [finalgammaint.update({node: str(value)}) for node, value in gammabase.items() if node in usednodes]  #for the case that usednodes is not empty
         return finalgammaint
@@ -196,19 +203,20 @@ class ControlAndPrint(EvaluateAndInterprete):
             gamma = self.gammaopTrival
         else:
             gamma = self.gammaopTwoval
-        if "a" or "c" or "p" in self.chooseinterpretations:
+        if (("a" in self.chooseinterpretations) or ("c" in self.chooseinterpretations) or ("p" in self.chooseinterpretations)):
             for interpretation in self.interpretations:
                 gammatemp = self.gammacompare(interpretation, gamma(interpretation))
                 if "a" in self.chooseinterpretations:
                     if gammatemp != 0:
                         intadm.append(interpretation)
-                if "p" or "c" in self.chooseinterpretations:
+                if (("p" in self.chooseinterpretations) or ("c"in self.chooseinterpretations)):
                     if gammatemp == interpretation:
                         intcomp.append(interpretation)
             if "p" in self.chooseinterpretations:
                 intpref = (self.preferred(intcomp))
         if "g" in self.chooseinterpretations:
             intground.append(self.groundCalc(gamma))
+        #print([intadm, intcomp, intpref, intground])
         return [intadm, intcomp, intpref, intground]
 
     def interprinter(self):
@@ -226,14 +234,15 @@ class ControlAndPrint(EvaluateAndInterprete):
             print("Ground Interpretations \n")
             self.ordprint(inter[3])
 
-x = ControlAndPrint(nodes,chooseinterpretations)
-print("Formatted Formula \n")
-print(x.preparedformulas, "\n")
-start = time.time()
-x.interprinter()
-end = time.time()
-print("Total Time")
-print(end - start)
+if __name__ == "__main__":
+    x = ControlAndPrint(nodes,chooseinterpretations)
+    print("Formatted Formula \n")
+    print(x.preparedformulas, "\n")
+    start = time.time()
+    x.interprinter()
+    end = time.time()
+    print("Total Time")
+    print(end - start)
 
 
 
