@@ -1,2 +1,2 @@
 # ADF
-A script for calculating Abstract Dialectical Frameworks (ADFs)
+A Script for Calculating Abstract Dialectical Frameworks (ADFs)
