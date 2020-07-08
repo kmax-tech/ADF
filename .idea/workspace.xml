@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="906c297c-a293-4676-a7d7-271b90c66db6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dj73jEup5p0uN0y2DsZwvAcTNx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../old-version/evaluation.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.ADFfinal">
+    <configuration name="ADFfinal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADFfinal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../old-version" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../old-version/evaluation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_checker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_checker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testinstances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testinstances.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ADFfinal" />
+        <item itemvalue="Python.evaluation (1)" />
+        <item itemvalue="Python.evaluation" />
+        <item itemvalue="Python.model_checker" />
+        <item itemvalue="Python.testinstances" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906c297c-a293-4676-a7d7-271b90c66db6" name="Default Changelist" comment="" />
+      <created>1592926450627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592926450627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="748" y="248" width="424" height="498" key="FileChooserDialogImpl" timestamp="1594209835658">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="748" y="248" width="424" height="498" key="FileChooserDialogImpl/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1594209835658" />
+    <state width="1777" height="35" key="GridCell.Tab.0.bottom" timestamp="1597223906865">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1777" height="35" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223906865" />
+    <state width="1479" height="88" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593354040258" />
+    <state width="1657" height="324" key="GridCell.Tab.0.bottom/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1777" height="35" key="GridCell.Tab.0.center" timestamp="1597223906865">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1777" height="35" key="GridCell.Tab.0.center/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223906865" />
+    <state width="1479" height="88" key="GridCell.Tab.0.center/0.27.1920.1020/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593354040258" />
+    <state width="1657" height="324" key="GridCell.Tab.0.center/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1777" height="35" key="GridCell.Tab.0.left" timestamp="1597223906865">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1777" height="35" key="GridCell.Tab.0.left/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223906865" />
+    <state width="1479" height="88" key="GridCell.Tab.0.left/0.27.1920.1020/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593354040258" />
+    <state width="1657" height="324" key="GridCell.Tab.0.left/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1777" height="35" key="GridCell.Tab.0.right" timestamp="1597223906865">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1777" height="35" key="GridCell.Tab.0.right/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223906865" />
+    <state width="1479" height="88" key="GridCell.Tab.0.right/0.27.1920.1020/1920.0.1680.1050@1920.0.1680.1050" timestamp="1593354040258" />
+    <state width="1657" height="324" key="GridCell.Tab.0.right/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1682" height="290" key="GridCell.Tab.1.bottom" timestamp="1593984789602">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1682" height="290" key="GridCell.Tab.1.bottom/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1593984789602" />
+    <state width="1657" height="324" key="GridCell.Tab.1.bottom/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1682" height="290" key="GridCell.Tab.1.center" timestamp="1593984789602">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1682" height="290" key="GridCell.Tab.1.center/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1593984789602" />
+    <state width="1657" height="324" key="GridCell.Tab.1.center/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1682" height="290" key="GridCell.Tab.1.left" timestamp="1593984789602">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1682" height="290" key="GridCell.Tab.1.left/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1593984789602" />
+    <state width="1657" height="324" key="GridCell.Tab.1.left/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state width="1682" height="290" key="GridCell.Tab.1.right" timestamp="1593984789602">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1682" height="290" key="GridCell.Tab.1.right/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1593984789602" />
+    <state width="1657" height="324" key="GridCell.Tab.1.right/0.27.3840.2100/3840.0.3360.2100@3840.0.3360.2100" timestamp="1593041244496" />
+    <state x="429" y="159" width="1031" height="744" key="SettingsEditor" timestamp="1594209889637">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="429" y="159" width="1031" height="744" key="SettingsEditor/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1594209889637" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593959869179">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1593959869179" />
+    <state x="566" y="273" width="800" height="542" key="Vcs.Push.Dialog.v2" timestamp="1597223957658">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="566" y="273" width="800" height="542" key="Vcs.Push.Dialog.v2/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223957658" />
+    <state x="752" y="370" width="416" height="186" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597223634141">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="752" y="370" width="416" height="186" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223634141" />
+    <state x="625" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1597223333206">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="625" y="206" width="672" height="678" key="search.everywhere.popup/0.27.1920.1020/1920.0.1680.1050@0.27.1920.1020" timestamp="1597223333206" />
+  </component>
+</project>
