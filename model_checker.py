@@ -2,7 +2,7 @@
 
 import pathlib
 
-#Input are the files stored in testresults w.r.t. to each semantics we have two textfiles results for the two and three-valued approach.
+#Input are the files stored in directory testresults w.r.t. to each semantics we have two textfiles results for the two and three-valued approach.
 #These files have a common naming pattern.
 
 filepath = "./testresults/"
